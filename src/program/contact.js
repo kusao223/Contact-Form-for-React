@@ -1,16 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import image1 from '../Image/Hexabase-Top.png';
 import '../sass/index.css';
 
 class page1 extends React.Component {
     render() {
-        const text = "https://www.hexabase.com/privacy-policy/";
         return (
             <div>
                 <div className='main-form'>
                     <div className='header'>
-                        <img src={image1} />
+                        <img src="#" alt="company-Logo" />
                         <p>以下のフォームより、お気軽にお問い合わせください。<br />お仕事のご依頼やご相談については、後日担当者よりご返信します。</p>
                     </div>
                     <div id='page1'>
@@ -56,7 +54,7 @@ class page1 extends React.Component {
                             <textarea className='text02' type='text' name='Contact-text' required></textarea>
                         </div>
                         <div className='form-grupe'>
-                            <label><input className='chbox' type='checkbox' required></input><a id='text' href={text}>プライバシーポリシー</a>に同意する。</label>
+                            <label><input className='chbox' type='checkbox' required></input><a id='text' href="#">プライバシーポリシー</a>に同意する。</label>
                         </div> 
                         <div className='bottun'>
                             <Link id="button" to={'/page2'}>送信</Link>
