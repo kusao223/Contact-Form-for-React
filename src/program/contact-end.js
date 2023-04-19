@@ -8,7 +8,7 @@ class page2 extends React.Component {
             <div>
                 <div className='main-form'>
                     <div className='header'>
-                        <img src={image1} />
+                        <img src="#" alt="company-Logo" />
                         <p id='text-page2'>お問い合わせの内容が送信されました。</p>
                     </div>
                     <div id='page2'>
