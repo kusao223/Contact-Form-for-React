@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@300&family=Noto+Serif+JP:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    background-color: #e4e4e4;
+}
+
+.main-form{
+    width: 100%;
+    .header{
+        margin-left: 8%;
+        display: flex;
+        img{
+            width: 25%;
+        }
+        p{
+            margin-top: 2.5%;
+            margin-left: 8%;
+            font-size: 120%;
+            text-align: center;
+        }
+    }
+    #page1{
+        font-family: 'Noto Serif JP', serif;
+        font-weight: 1000;
+        font-size: 170%;
+        margin-top: 12%;
+        margin-left: 15%;
+        width: 20%;
+        .fast-navi{
+            margin-bottom: 30%;
+        }
+        .second-navi{
+            opacity: 40%;
+            width: 70%;
+        }
+    }
+    #page2{
+        font-family: 'Noto Serif JP', serif;
+        font-weight: 1000;
+        font-size: 170%;
+        margin-top: 12%;
+        margin-left: 15%;
+        width: 20%;
+        .fast-navi{
+            opacity: 40%;
+            margin-bottom: 30%;
+        }
+        .second-navi{
+            opacity: 100%;
+        }
+    }
+}
+
+.contact-form{
+    text-align: center;
+    background-color: rgb(244, 244, 244);
+    margin-top: -27%;
+    margin-left: 39%;
+    width: 40%;
+    border-radius: 3%;
+    form{
+        font-family: 'M PLUS 2', sans-serif;        
+    }
+    .box{
+        width: 60%;
+    }
+    .form-grupe{
+        margin-top: 5%;
+        margin-bottom: 5%;
+
+        .label{
+            display: flex;
+            padding-left: 20%;
+            .required{
+            color: rgb(255, 255, 255);
+            background-color: rgb(255, 0, 0);
+            font-size: 2%;
+            width: 6%;
+            margin-left: 1%;
+            margin-bottom: 2%;
+            }
+        }
+        .text01{
+            margin-top: 1%;
+            border: none;
+            width: 50%;
+            height: 2.5em;
+        }
+        .text02{
+            margin-top: 1%;
+            border: none;
+            width: 50%;
+            height: 8.5em;
+            resize: none;
+        }
+        .chbox{
+            margin-top: -5%;
+            margin-right: 2%;
+        }
+    }
+}   
+
+#top{  
+    padding-top: 5%;
+}
+    
+#button{
+    display: inline-block;
+    width: 12%;
+    height: 32px;
+    margin-left: -48%;
+    margin-bottom: 5%;
+    text-decoration: none;
+    border: none;     
+    color: #e4e4e4;
+    font-size: 120%;
+    border-radius: 5px;
+    background-color: #6588A1;
+}
+
+// Page2↓↓↓
+#text-page2{
+    margin-top:4%;
+    margin-left: 17%;
+}
+.main-text{
+    font-family: 'Noto Serif JP', serif;
+    width: 40%;
+    margin-top: -9%;
+    margin-left: 39%;
+    text-align: center;
+    .top-page{
+        p{
+            font-size: 150%;
+        }
+        a{
+            font-size: 150%;
+        }
+    }
+}
